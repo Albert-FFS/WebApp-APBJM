@@ -1,0 +1,63 @@
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/app/index.css ***!
+  \*********************************************************************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 100vw;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    margin:1.5em auto;
+    padding:1.5em 1em;
+    background: rgba(0, 0, 0,0.17);
+}
+.section img{
+    height:100mm;
+}
+
+    /* El reloj */
+.reloj{
+    position: relative;
+    left: 75%;
+    font-size: 6mm;
+}
+/* Tablas */
+.Tabla{
+    border: #fff 2px solid;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+.table{
+    width: fit-content;
+    height: min-content;
+}
+/* Estilos internos de cada Formularios */
+.Formulario{
+    padding: 1em 1.5em;
+    background: #000;
+    font-size: 5mm;
+    font-weight: 200;
+    color: gray;
+    margin: 0.5em 1em;
+}
+.Formulario h3{
+    font-size: 7.5mm;
+    font-weight: 400;
+}
+.Formulario label{
+    margin: 5px;
+}
+.btn{
+    margin: 0.25em auto;
+    font-size: 1em;
+}
+
